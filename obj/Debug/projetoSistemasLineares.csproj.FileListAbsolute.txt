@@ -1,0 +1,10 @@
+C:\Users\vinio\csharp\projetoSistemasLineares\bin\Debug\projetoSistemasLineares.exe.config
+C:\Users\vinio\csharp\projetoSistemasLineares\bin\Debug\projetoSistemasLineares.exe
+C:\Users\vinio\csharp\projetoSistemasLineares\bin\Debug\projetoSistemasLineares.pdb
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.csproj.AssemblyReference.cache
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.frmPrincipal.resources
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.Properties.Resources.resources
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.csproj.GenerateResource.cache
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.csproj.CoreCompileInputs.cache
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.exe
+C:\Users\vinio\csharp\projetoSistemasLineares\obj\Debug\projetoSistemasLineares.pdb
