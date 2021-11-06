@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoSistemasLineares", "projetoSistemasLineares.csproj", "{8909D902-A9F1-47C7-B651-CB4AB0DD0E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8909D902-A9F1-47C7-B651-CB4AB0DD0E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8909D902-A9F1-47C7-B651-CB4AB0DD0E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8909D902-A9F1-47C7-B651-CB4AB0DD0E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8909D902-A9F1-47C7-B651-CB4AB0DD0E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {932A8FFE-0BAA-4185-AB7F-4E6CF21EDF42}
+	EndGlobalSection
+EndGlobal
