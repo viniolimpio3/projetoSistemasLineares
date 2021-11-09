@@ -13,6 +13,17 @@ namespace projetoSistemasLineares {
     public partial class frmPrincipal : Form {
 
         const int QTD_VARS_DEFAULT = 3;
+
+        struct Sistema {
+            public int qtd_var;
+            public Linha[] linhas;
+        }
+
+        struct Linha {
+            public int indice;
+            public double valor;
+        }
+
         public frmPrincipal() {
             InitializeComponent();
 
@@ -53,6 +64,15 @@ namespace projetoSistemasLineares {
                 MessageBox.Show("Erro!", "Digite um número de variáveis válido!");
             
 
+        }
+
+        private void btnImportarSistemas_Click(object sender, EventArgs e) {
+            OpenFileDialog dialog = new OpenFileDialog();
+
+            if(dialog.ShowDialog() == DialogResult.OK) {
+                string filepath = dialog.FileName;
+                
+            }
         }
     }
 }

@@ -30,6 +30,7 @@ namespace projetoSistemasLineares {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnImportarSistemas = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.gridSistema)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQtdVars)).BeginInit();
             this.SuspendLayout();
@@ -100,6 +101,11 @@ namespace projetoSistemasLineares {
             this.btnImportarSistemas.TabIndex = 5;
             this.btnImportarSistemas.Text = "Importar e Calcular";
             this.btnImportarSistemas.UseVisualStyleBackColor = true;
+            this.btnImportarSistemas.Click += new System.EventHandler(this.btnImportarSistemas_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // frmPrincipal
             // 
@@ -129,6 +135,7 @@ namespace projetoSistemasLineares {
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnImportarSistemas;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
