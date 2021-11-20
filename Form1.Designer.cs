@@ -31,12 +31,18 @@ namespace projetoSistemasLineares {
             this.button2 = new System.Windows.Forms.Button();
             this.btnImportarSistemas = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.txtResult = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridSistema)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQtdVars)).BeginInit();
             this.SuspendLayout();
             // 
             // gridSistema
             // 
+            this.gridSistema.AllowUserToAddRows = false;
+            this.gridSistema.AllowUserToDeleteRows = false;
+            this.gridSistema.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridSistema.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridSistema.Location = new System.Drawing.Point(164, 12);
             this.gridSistema.Name = "gridSistema";
@@ -92,6 +98,7 @@ namespace projetoSistemasLineares {
             this.button2.TabIndex = 4;
             this.button2.Text = "Calcular";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnImportarSistemas
             // 
@@ -107,11 +114,23 @@ namespace projetoSistemasLineares {
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // txtResult
+            // 
+            this.txtResult.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtResult.Location = new System.Drawing.Point(12, 221);
+            this.txtResult.Multiline = true;
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(827, 203);
+            this.txtResult.TabIndex = 6;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(851, 436);
+            this.Controls.Add(this.txtResult);
             this.Controls.Add(this.btnImportarSistemas);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -136,6 +155,6 @@ namespace projetoSistemasLineares {
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnImportarSistemas;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.TextBox txtResult;
     }
 }
-
